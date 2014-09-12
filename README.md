@@ -8,4 +8,4 @@ Group Application
 
 UESTCer，互助、共进。
 
-[入组申请和项目说明入口](https://github.com/uestcer/application/issues)
+[入组申请和项目发起入口](https://github.com/uestcer/application/issues)
