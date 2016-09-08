@@ -1,5 +1,4 @@
-Group Application
-===========
+# Group Application
 
 > 本群组旨在聚拢各届成电老友，汇聚优秀项目，共同进步
 
@@ -8,4 +7,4 @@ Group Application
 
 UESTCer，互助、共进。
 
-[入组申请和项目发起入口](https://github.com/uestcer/application/issues)
+[入组申请和项目发起入口](//github.com/uestcer/application/issues?utf8=%E2%9C%93&q=)
