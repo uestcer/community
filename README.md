@@ -4,6 +4,7 @@
 
 - 组员可提issue自由发起项目label[new project]，亦可参与他人项目学习
 - 出于不浪费大家时间的考虑，无任何聊天群，请各位校友用最方便的issue沟通。
+- 如果申请长时间未回复，请在issue中评论：cc @Xunzhuo
 
 UESTCer，互助、共进。
 
