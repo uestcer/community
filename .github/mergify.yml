@@ -16,11 +16,12 @@ pull_request_rules:
       request_reviews:
         users:
           - xunzhuo
-      assign:
-        add_users:
-          - xunzhuo
-      comment:
-        message: |
-           Welcome to join the UESTC community!
-           Waiting for @xunzhuo to check if this PR is valid :)
-           We're delighted to have you onboard 💘
+#       assign:
+#         add_users:
+#           - xunzhuo
+#       comment:
+#         message: |
+#            Welcome to join the UESTC community!
+#            Waiting for @xunzhuo to check if this PR is valid :)
+#            We're delighted to have you onboard 💘
+
