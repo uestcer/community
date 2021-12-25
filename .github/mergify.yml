@@ -2,7 +2,7 @@
 pull_request_rules:
   - name: Automatic merge on CI success and review
     conditions:
-      - approved-reviews-by=xunzhuo
+      - approved-reviews-by=Xunzhuo
     actions:
       merge:
         method: merge
@@ -14,15 +14,15 @@ pull_request_rules:
     actions:
       request_reviews:
         users:
-          - xunzhuo
+          - Xunzhuo
       assign:
         add_users:
-          - xunzhuo
+          - Xunzhuo
       comment:
         message: |
            Welcome to the UESTC OpenSource Community!👏
            
-           Waiting for Maintainer @xunzhuo to check if this PR is valid ⌛️
+           Waiting for Maintainer to check if this PR is Valid. cc @Xunzhuo ⌛️
            
            We're delighted to have you onboard 💘
 
