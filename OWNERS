@@ -1,6 +1,12 @@
-# Maintainers and Owners who is managed @uestcer Community
+# Maintainers and Owners who are managed @uestcer Community 
+
+maintainers:
+- xunzhuo
+- xudafeng
 
 approvers:
 - xunzhuo
 - xudafeng
 
+reviewers:
+- xunzhuo
