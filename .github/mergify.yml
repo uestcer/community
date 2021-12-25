@@ -5,8 +5,7 @@ pull_request_rules:
       - approved-reviews-by=xunzhuo
     actions:
       merge:
-        method: squash
-        strict: true
+        method: merge
   - name: ask the maintainer team to review PR
     conditions:
       - and:
@@ -16,12 +15,14 @@ pull_request_rules:
       request_reviews:
         users:
           - xunzhuo
-#       assign:
-#         add_users:
-#           - xunzhuo
-#       comment:
-#         message: |
-#            Welcome to join the UESTC community!
-#            Waiting for @xunzhuo to check if this PR is valid :)
-#            We're delighted to have you onboard 💘
+      assign:
+        add_users:
+          - xunzhuo
+      comment:
+        message: |
+           Welcome to the UESTC OpenSource Community!👏
+           
+           Waiting for Maintainer @xunzhuo to check if this PR is valid ⌛️
+           
+           We're delighted to have you onboard 💘
 
