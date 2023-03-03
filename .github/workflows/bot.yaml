@@ -68,15 +68,7 @@ env:
   GH_REPOSITORY: ${{ github.repository }}
 
 # https://docs.github.com/en/actions/security-guides/automatic-token-authentication#permissions-for-the-github_token
-permissions:
-  checks: read
-  discussions: read
-  repository-projects: read
-  statuses: read
-  contents: write
-  issues: write
-  pull-requests: write
-  actions: write
+permissions: write-all
 
 jobs:
   bot:
