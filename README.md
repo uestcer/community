@@ -1,7 +1,6 @@
 # UESTC Group Application 👏
 
 > 本组织是由电子科大开源爱好者，自发创立和维护的开源组织 🏠
-> 
 > 本组织旨在聚拢各届成电新老好友，参与开源社区，汇聚优秀项目，共同进步 🚀
 
 - 如果想加入UESTC开源社区，请在 Issue 发起 [申请](//github.com/uestcer/application/issues?utf8=%E2%9C%93&q=) 👈 ，并根据指引发起 PR 加入你的 GitHub ID 👀
