@@ -9,5 +9,3 @@
 - 如果想相互交流，可以加入 [Gitter](https://gitter.im/uestc-community/community) 相互沟通 💬
 
 **UESTCer，互助、共进 :)**
-
-
