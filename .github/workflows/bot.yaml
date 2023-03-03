@@ -1,4 +1,4 @@
-name: Prow Bot
+name: KubeFlow
 on:
   issue_comment:
     types:
@@ -53,7 +53,10 @@ env:
   APPROVERS_PLUGINS: |-
     merge
     approve
-    rebase
+    milestone
+    remove-milestone
+    priority
+    remove-priority
   # This commands is for in the MAINTAINERS environment variable
   MAINTAINERS_PLUGINS: |-
     milestone
