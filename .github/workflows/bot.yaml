@@ -1,4 +1,4 @@
-name: KubeFlow
+name: Prowox
 on:
   issue_comment:
     types:
