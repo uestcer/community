@@ -8,3 +8,14 @@
 - 如果想相互交流，可以加入 [Gitter](https://gitter.im/uestc-community/community) 相互沟通 💬
 
 **UESTCer，互助、共进 :)**
+
+>This organization is an open-source community founded and maintained by enthusiasts from the University of Electronic Science and Technology of China 🏠 Our goal is to gather students and alumni from all years, participate in open-source communities, gather excellent projects, and progress together 🚀
+
+- If you want to join the UESTC open-source community, please initiate an application in the Issue section 👈 and submit a PR to add your GitHub ID according to the guidelines 👀
+
+- If you have any suggestions or want to discuss the open-source community, please speak up in the Discussions section. We welcome more ideas and opinions 🤔
+
+- If you want to communicate with each other, you can join Gitter for mutual communication 💬
+
+**UESTCers, help each other and progress together :)**
+
