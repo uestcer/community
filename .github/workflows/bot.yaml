@@ -25,7 +25,9 @@ on:
       - opened
 
   schedule:
-    - cron: '*/5 * * * *'
+    - cron: '0 * * * *'
+    
+  workflow_dispatch:
 
 env:
   # This commands is for anyone who can use it
