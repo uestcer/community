@@ -19,6 +19,6 @@ jobs:
               owner: context.repo.owner,
               repo: context.repo.repo,
               pull_number: pullRequestNumber,
-              team_reviewers: ['uestcer/gateway-reviewers']
+              team_reviewers: ['gateway-reviewers']
             });
           github-token: ${{ secrets.GITHUB_TOKEN }}
