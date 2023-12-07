@@ -1,0 +1,22 @@
+name: Auto Request Review
+
+on:
+  pull_request_target:
+    types: [opened, reopened, synchronize]
+
+jobs:
+  auto-request-review:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Request review from team
+        uses: actions/github-script@v6
+        with:
+          script: |
+            const pullRequestNumber = context.payload.pull_request.number;
+            await github.rest.pulls.requestReviewers({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              pull_number: pullRequestNumber,
+              team_reviewers: ['admin']
+            });
+          github-token: ${{ secrets.GITHUB_TOKEN }}
