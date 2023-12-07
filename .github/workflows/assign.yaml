@@ -6,6 +6,8 @@ on:
 
 jobs:
   auto-request-review:
+    permissions:
+      pull-requests: write
     runs-on: ubuntu-latest
     steps:
       - name: Request review from team
@@ -17,6 +19,6 @@ jobs:
               owner: context.repo.owner,
               repo: context.repo.repo,
               pull_number: pullRequestNumber,
-              team_reviewers: ['admin']
+              team_reviewers: ['gateway-reviewers']
             });
           github-token: ${{ secrets.GITHUB_TOKEN }}
