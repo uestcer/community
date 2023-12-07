@@ -1,4 +1,4 @@
-name: Auto Request Review
+name: Welcome
 
 on:
   pull_request_target:
