@@ -27,8 +27,8 @@ jobs:
               - Your PR needs to receive at least **two** approvals.
               - At least **one** approval must come from a member of the gateway-maintainers team.
 
-            Our [build and test workflow](https://github.com/envoyproxy/gateway/actions/workflows/build_and_test.yaml) will run a series of checks on your code to ensure it meets our quality standards and coding conventions. In the meantime, you can help expedite the processing of your PR by:
-            - Ensuring you have self-reviewed your work according to the project's [contribution guidelines](https://gateway.envoyproxy.io/latest/contributions/develop).
+            Our [Build and Test Workflow](https://github.com/envoyproxy/gateway/actions/workflows/build_and_test.yaml) will run a series of checks on your code to ensure it meets our quality standards and coding conventions. In the meantime, you can help expedite the processing of your PR by:
+            - Ensuring you have self-reviewed your work according to the project's [Contribution Guidelines](https://gateway.envoyproxy.io/latest/contributions/develop).
             - If your PR addresses a specific issue, make sure to mention it in the PR description.
             - Respond promptly if there are any test failures or suggestions for improvements that we comment on.
 
