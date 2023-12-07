@@ -10,15 +10,14 @@ jobs:
       pull-requests: write
     runs-on: ubuntu-latest
     steps:
-      - name: Request review from team
-        uses: actions/github-script@v6
+      - name: Comment
+        uses: peter-evans/create-or-update-comment@v3
         with:
-          script: |
-            const pullRequestNumber = context.payload.pull_request.number;
-            await github.rest.pulls.requestReviewers({
-              owner: context.repo.owner,
-              repo: context.repo.repo,
-              pull_number: pullRequestNumber,
-              team_reviewers: ['gateway-reviewers']
-            });
-          github-token: ${{ secrets.GITHUB_TOKEN }}
+          issue-number: ${{ github.event.pull_request.number }}
+          body: |
+            This is a multi-line test comment
+            - With GitHub **Markdown** :sparkles:
+            - Created by [create-or-update-comment][1]
+
+            [1]: https://github.com/peter-evans/create-or-update-comment
+          reactions: 'heart'
