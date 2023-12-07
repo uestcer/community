@@ -15,7 +15,7 @@ jobs:
         with:
           issue-number: ${{ github.event.pull_request.number }}
           body: |
-            🚀 Thank you for contributing to the Envoy Gateway project! 🚀
+            🚀 Thank you for contributing to the [Envoy Gateway](https://gateway.envoyproxy.io) project! 🚀
 
             Your PR has been successfully submitted, and we greatly appreciate your effort and contribution. Before merging, please ensure to follow the process below:
 
